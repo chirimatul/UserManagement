@@ -1,0 +1,15 @@
+<p [class.testClass]="isbtnInfo">
+  child-component works! {{user.name}}
+</p>
+<div class="row">
+  <div class="card" *ngFor="let i of [1,2,3,3,3,3,3,3,3,3]" style="width: 18rem;margin:5px;">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <img [src]='userImage'style="height:100px;width:100px" >
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+<input id="btnLogin" type="button" value="submit" class="btn btn-info" on-click="childClick()">

@@ -1,3 +1,6 @@
 <p>
   user works!
+  User name : {{user.name}}
 </p>
+
+<app-child-component bind-childUser="user" on-change="userNameChanged($event)"></app-child-component>
